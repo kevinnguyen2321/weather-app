@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.container {
+  border: solid black;
+  width: 500px;
+  height: 730px;
+  margin: 70px auto 0 auto;
+}
+
+.city-info {
+    border: solid black;
+    width: 99%;
+    height: 250px;
+}
+
+.three-day {
+    border: solid green;
+    height: 64%;
+}
