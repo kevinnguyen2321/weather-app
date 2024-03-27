@@ -9,13 +9,42 @@ body {
   margin: 70px auto 0 auto;
 }
 
-.city-info {
-    border: solid black;
-    width: 99%;
-    height: 250px;
+.current-city-info {
+  border: solid black;
+  width: 99%;
+  height: 250px;
+  text-align: center;
 }
 
 .three-day {
-    border: solid green;
-    height: 64%;
+  border: solid green;
+  height: 64%;
+  text-align: center;
+}
+
+.week-container {
+  /* border: solid black; */
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.days {
+  border: solid black;
+  width: 150px;
+  height: 150px;
+}
+
+.date-container {
+  border: solid black;
+  width: 96%;
+  height: 35px;
+}
+
+.max-min {
+  border: solid rgb(153, 1, 1);
+  width: 96%;
+  height: 35px;
 }

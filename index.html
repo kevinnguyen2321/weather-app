@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="city-info">
+      <div class="current-city-info">
         <form action="">
           <label for="search"></label>
           <input type="search" placeholder="Search city" />
@@ -17,9 +17,28 @@
         <h1 class="city-header"></h1>
         <h2 class="current-temp"></h2>
         <h3 class="condition-text"></h3>
-        <img class="current-day-icon" src="#" alt="">
+        <img class="current-day-icon" src="#" alt="" />
       </div>
-      <div class="three-day"></div>
+      <div class="three-day">
+        <h2>Three Day Forecast</h2>
+        <div class="week-container">
+          <div class="days one">
+            <div class="date-container"></div>
+            <img class="day-one" src="" alt="" />
+            <div class="max-min"></div>
+          </div>
+          <div class="days two">
+            <div class="date-container"></div>
+            <img class="day-two" src="" alt="" />
+            <div class="max-min"></div>
+          </div>
+          <div class="days three">
+            <div class="date-container"></div>
+            <img class="day-three" src="" alt="" />
+            <div class="max-min"></div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>
