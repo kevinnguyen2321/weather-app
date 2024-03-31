@@ -158,9 +158,9 @@ searchBtn.addEventListener('click', async (e) => {
 //Function to display icons//
 function displayWeatherIcon(conditonText, imgContainer) {
   if (conditonText === 'Clear' || conditonText === 'clear') {
-    imgContainer.src = '/icons/clear.png';
+    imgContainer.src = 'icons/clear.png';
   } else if (conditonText.includes('rain') || conditonText.includes('Rain')) {
-    imgContainer.src = '/icons/rain.png';
+    imgContainer.src = 'icons/rain.png';
   } else if (
     conditonText.includes('cloudy') ||
     conditonText.includes('Cloudy')
