@@ -18,7 +18,7 @@ let currentWeatherInfo;
 async function getWeather(location) {
   try {
     const forecastResponse = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=c8924334cfb94f5498e165605242003&q=${location}&days=3`,
+      `https://api.weatherapi.com/v1/forecast.json?key=c8924334cfb94f5498e165605242003&q=${location}&days=3`,
       {
         mode: 'cors',
       }
